@@ -15,9 +15,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 
 dotenv.load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or st.secrets["GEMINI_API_KEY"]
-NEWSDATA_KEY = os.getenv("NEWSDATA_KEY") or st.secrets["NEWSDATA_KEY"]
-GNEWS_KEY = os.getenv("GNEWS_KEY") or st.secrets["GNEWS_KEY"]
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or st.secrets["api_keys"]["GEMINI_API_KEY"]
+NEWSDATA_KEY = os.getenv("NEWSDATA_KEY") or st.secrets["api_keys"]["NEWSDATA_KEY"]
+GNEWS_KEY = os.getenv("GNEWS_KEY") or st.secrets["api_keys"]["GNEWS_KEY"]
 
 import logging
 
