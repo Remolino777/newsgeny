@@ -1,9 +1,7 @@
 [tool.poetry]
 name = "langgraph-project"
 version = "0.1.0"
-packages = [
-    { include = "langgraph_project", from = "src" }
-]
+
 description = "Proyecto LangGraph + Studio configurado para usar Google Gemini como único LLM, con soporte para paquetes comunitarios"
 authors = ["Javier Hernández <javier@example.com>"]
 
